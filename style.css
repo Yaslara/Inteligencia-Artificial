@@ -1,0 +1,74 @@
+
+body {
+    background-color: #dbfeff;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Você pode mudar a fonte se quiser */
+}
+
+/* Estilo da caixa principal (o "card") */
+.caixa-principal {
+    background-color: #f0f8ff; /* Cor da caixa principal, um branco/azul bem claro */
+    border: 3px solid #000000; /* Borda azul */
+    border-radius: 20px; /* Borda arredondada */
+    padding: 20px;
+    text-align: center;
+    width: 600px; /* Largura da caixa */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+}
+
+h1 {
+    color: #dbfeff; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+    font-size: 2.5em; 
+    font-family: 'Verdana', sans-serif; /* Usei uma fonte diferente para o título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra no texto */
+}
+
+
+/* Estilo para a caixa de perguntas */
+.caixa-perguntas {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #000000;
+    line-height: 1.5;
+}
+
+/* Estilo dos botões de alternativa */
+.caixa-alternativas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.caixa-alternativas button {
+    background-color: #dbfeff; /* Cor de fundo do botão */
+    border: 2px solid #000000; /* Borda azul */
+    color: #000000; /* Cor do texto do botão */
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse por cima do botão */
+.caixa-alternativas button:hover {
+    background-color: #0000ff;
+    color: #f0f8ff;
+    transform: scale(1.05);
+}
+
+/* Estilo da caixa de resultado */
+.caixa-resultado {
+    margin-top: 30px;
+}
+
+.texto-resultado {
+    font-size: 1.2em;
+    color: #000000;
+}
